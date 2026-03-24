@@ -2,9 +2,9 @@
 
 If you are using `uv` as your package manager:
 
-1. Install the required dependencies (if not already installed):
+1. Sync and install the required dependencies (if not already installed):
 ```bash
-uv pip install scrapy scrapy-playwright
+uv sync
 uv run playwright install chromium
 ```
 
